@@ -39,14 +39,15 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'My name is Nicolae Antir Im 24 years old from Chisinau more exactly from Ciocana. Was born here but since 2016 I lived in different countries as I like travel and new experiences.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I never had a speciality or a degree so this year I decided the time has come, it took me 4 hours navigating on google to understand that I want to be an web developer so I am struggling to make it to the end and Im already so close.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'Maybe Im not the best student from the course I do right now but I never wanted to be the best, Im proud of me and thats matter.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
